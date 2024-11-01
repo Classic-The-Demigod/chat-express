@@ -6,8 +6,8 @@ import Google from "../src/assets/Google.png"
 const App = () => {
   return (
     <section className="font-primary py-4 px-4 container wrapper">
-      <section className="flex justify-between items-center">
-        <main className=" flex-1 hidden lg:block">
+      <section className="flex justify-between md:gap-3 items-center">
+        <main className=" flex-1 hidden sm:block">
           <div className="bg-gradient-to-br bg-gradient-to-[45deg] from-black-500 to-black-400 rounded-3xl  h-[700px] lg:h-[877px] flex flex-col justify-between overflow-hidden lg:w-[600px]">
             <div className="px-8 py-8 space-y-[4rem]">
               <img src={Logo} alt="" />
