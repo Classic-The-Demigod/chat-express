@@ -96,13 +96,13 @@ const App = () => {
 
               <button className="bg-white-100 text-gray-500 w-full py-3 rounded-xl flex justify-center items-center gap-2">
                 <span>
-                  <img src={Google} alt="" />
+                  <img className="w-[20px] sm:w-[25px]" src={Google} alt="" />
                 </span>
                 Sign up with Google
               </button>
             </form>
 
-            <p className="text-center text-gray-500">
+            <p className="text-center text-gray-500 text-[12px] sm:text-sm">
               I already have an account?{" "}
               <span className="text-accent">Log In</span>
             </p>
