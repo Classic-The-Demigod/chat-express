@@ -5,38 +5,38 @@ import Google from "../src/assets/Google.png"
 
 const App = () => {
   return (
-    <section className="font-primary py-4 px-4">
-      <section className="flex justify-between container mx-auto items-center">
-        <main className=" flex-1 hidden sm:block">
-          <div className="bg-gradient-to-br bg-gradient-to-[45deg] from-black-500 via-black-500 to-black-400 rounded-3xl   h-[800px] max-h-screen flex flex-col justify-between overflow-hidden w-[90%]">
+    <section className="font-primary py-4 px-4 container wrapper">
+      <section className="flex justify-between items-center">
+        <main className=" flex-1 hidden lg:block">
+          <div className="bg-gradient-to-br bg-gradient-to-[45deg] from-black-500 to-black-400 rounded-3xl  h-[700px] lg:h-[877px] flex flex-col justify-between overflow-hidden lg:w-[600px]">
             <div className="px-8 py-8 space-y-[4rem]">
               <img src={Logo} alt="" />
 
               <div className=" space-y-4">
-                <h1 className="text-3xl text-white-100 font-normal">
+                <h1 className="text-3xl text-white-100 font-normal w-[80%]">
                   <span className="text-accent font-bold">The Future</span> of
                   Customer Service
                 </h1>
-                <p className="text-white-100 font-normal text-base">
+                <p className="text-white-100 font-normal text-base w-[80%]">
                   Start delivering exceptional customer experiences with
                   ChatXpress today!
                 </p>
               </div>
             </div>
 
-            <img className="w-[300px] self-end" src={Circle} alt="" />
+            <img className="w-[400px] self-end" src={Circle} alt="" />
           </div>
         </main>
-        <main className="flex-1 flex justify-center items-center">
+        <main className="flex-1 flex justify-center items-center py-[6rem] md:py-0">
           <div className="space-y-4">
             <div className="text-center space-y-2">
               <h1 className="text-black-500 text-3xl font-normal">
-                Create New Account
+                Create your account
               </h1>
               <p className="text-black-300">Get started with zero costs.</p>
             </div>
 
-            <form action="" className="space-y-4 font-medium">
+            <form action="" className="space-y-4 font-medium ">
               <div className="flex flex-col gap-2">
                 <label className="text-black-400" htmlFor="Email">
                   Email <span>*</span>
@@ -92,13 +92,17 @@ const App = () => {
               </div>
 
               <button className="bg-white-100 text-gray-500 w-full py-3 rounded-xl flex justify-center items-center gap-2">
-                <span><img src={Google} alt="" /></span>
-               Sign up with Google
+                <span>
+                  <img src={Google} alt="" />
+                </span>
+                Sign up with Google
               </button>
             </form>
 
-
-            <p className="text-center text-gray-500">I already have an account? <span className="text-accent">Log In</span></p>
+            <p className="text-center text-gray-500">
+              I already have an account?{" "}
+              <span className="text-accent">Log In</span>
+            </p>
           </div>
         </main>
       </section>
