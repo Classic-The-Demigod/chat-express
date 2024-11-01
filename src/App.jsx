@@ -27,7 +27,7 @@ const App = () => {
             <img className="w-[400px] self-end" src={Circle} alt="" />
           </div>
         </main>
-        <main className="flex-1 flex justify-center items-center py-[6rem] md:py-0">
+        <main className="flex-1 flex justify-center items-center py-[3rem] md:py-0">
           <div className="space-y-4">
             <div className="text-center space-y-2">
               <h1 className="text-black-500 text-3xl font-normal">
@@ -36,7 +36,10 @@ const App = () => {
               <p className="text-black-300">Get started with zero costs.</p>
             </div>
 
-            <form action="" className="space-y-4 font-medium ">
+            <form
+              action=""
+              className="space-y-4 font-medium text-[12px] sm:text-sm"
+            >
               <div className="flex flex-col gap-2">
                 <label className="text-black-400" htmlFor="Email">
                   Email <span>*</span>
@@ -76,7 +79,7 @@ const App = () => {
                   placeholder="Paste or enter link here"
                 />
               </div>
-              <p className="text-center text-base text-black-300">
+              <p className="text-center text-[10px] sm:text-sm text-black-300">
                 By creating an account, you agree to ChatXpress’ <br />{" "}
                 <span className="text-accent"> Terms Of Use</span> and{" "}
                 <span className="text-accent">Privacy Policy.</span>
