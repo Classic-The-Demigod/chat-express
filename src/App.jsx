@@ -46,7 +46,7 @@ const App = () => {
                 </label>
 
                 <input
-                  className="w-full px-4 py-3 rounded-xl outline-none bg-white-100 focus:bg-[#fff] focus-within:border focus-within:border-black-500 transition-all duration-300 ease-in"
+                  className="w-full px-4 py-[10px] sm:py-3 rounded-xl outline-none bg-white-100 focus:bg-[#fff] focus-within:border focus-within:border-black-500 transition-all duration-300 ease-in"
                   type="email"
                   name=""
                   id=""
@@ -59,7 +59,7 @@ const App = () => {
                 </label>
 
                 <input
-                  className="w-full px-4 py-3 rounded-xl outline-none bg-white-100 focus:bg-[#fff] focus-within:border focus-within:border-black-500 transition-all duration-300 ease-in"
+                  className="w-full px-4 py-[10px] sm:py-3 rounded-xl outline-none bg-white-100 focus:bg-[#fff] focus-within:border focus-within:border-black-500 transition-all duration-300 ease-in"
                   type="email"
                   name=""
                   id=""
@@ -72,7 +72,7 @@ const App = () => {
                 </label>
 
                 <input
-                  className="w-full px-4 py-3 rounded-xl outline-none bg-white-100 focus:bg-[#fff] focus-within:border focus-within:border-black-500 transition-all duration-300 ease-in"
+                  className="w-full px-4 py-[10px] sm:py-3 rounded-xl outline-none bg-white-100 focus:bg-[#fff] focus-within:border focus-within:border-black-500 transition-all duration-300 ease-in"
                   type="email"
                   name=""
                   id=""
@@ -85,7 +85,7 @@ const App = () => {
                 <span className="text-accent">Privacy Policy.</span>
               </p>
 
-              <button className="bg-wine text-white-100 w-full py-3 rounded-xl">
+              <button className="bg-wine text-white-100 w-full py-[10px] sm:py-3 rounded-xl">
                 Create Account
               </button>
               <div className="flex items-center gap-2 text-gray-500">
@@ -94,7 +94,7 @@ const App = () => {
                 <hr className="w-full border-white-100" />
               </div>
 
-              <button className="bg-white-100 text-gray-500 w-full py-3 rounded-xl flex justify-center items-center gap-2">
+              <button className="bg-white-100 text-gray-500 w-full py-[10px] sm:py-3 rounded-xl flex justify-center items-center gap-2">
                 <span>
                   <img className="w-[20px] sm:w-[25px]" src={Google} alt="" />
                 </span>
