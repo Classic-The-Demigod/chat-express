@@ -29,11 +29,11 @@ const App = () => {
         </main>
         <main className="flex-1 flex justify-center items-center py-[3rem] md:py-0">
           <div className="space-y-4">
-            <div className="text-center space-y-2">
+            <div className="text-center space-y-4">
               <h1 className="text-black-500 text-3xl font-normal">
                 Create your account
               </h1>
-              <p className="text-black-300">Get started with zero costs.</p>
+              <p className="text-black-300 text-sm">Get started with zero costs.</p>
             </div>
 
             <form
