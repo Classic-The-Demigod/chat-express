@@ -90,9 +90,9 @@ const App = () => {
               <button className="bg-wine text-white-100 w-full py-[10px] sm:py-3 rounded-xl">
                 Create Account
               </button>
-              <div className="flex items-center gap-2 text-gray-500">
+              <div className="flex items-center text-gray-500">
                 <hr className="w-full border-white-100" />
-                <p>or</p>
+                <p className="bg-white-100 py-1 px-2">Or</p>
                 <hr className="w-full border-white-100" />
               </div>
 
