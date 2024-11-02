@@ -104,7 +104,7 @@ const App = () => {
               </button>
             </form>
 
-            <p className="text-center text-gray-500 text-[12px] pt-6 sm:pt-0 sm:text-sm">
+            <p className="text-center text-gray-500 text-[12px] pt-6  sm:text-sm">
               I already have an account?{" "}
               <span className="text-accent">Log In</span>
             </p>
