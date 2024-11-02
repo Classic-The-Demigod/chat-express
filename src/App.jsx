@@ -1,14 +1,14 @@
 import Logo from "../src/assets/Logo.png";
 import Circle from "../src/assets/illustration.png";
 
-import Google from "../src/assets/Google.png"
+import Google from "../src/assets/Google.png";
 
 const App = () => {
   return (
     <section className="font-primary py-4 px-4 container wrapper">
-      <section className="flex justify-between md:gap-8  items-center">
+      <section className="flex justify-between md:gap-8   items-center">
         <main className=" flex-1 hidden sm:block">
-          <div className="bg-gradient-to-br bg-gradient-to-[45deg] from-black-500 to-black-400 rounded-3xl  h-[700px] lg:h-[877px] flex flex-col justify-between overflow-hidden lg:w-[600px]">
+          <div className="bg-gradient-to-br bg-gradient-to-[45deg] from-black-500 to-black-300 rounded-3xl  h-[700px] lg:h-[877px] flex flex-col justify-between overflow-hidden lg:w-[600px]">
             <div className="px-8 py-8 space-y-[4rem]">
               <img src={Logo} alt="" />
 
@@ -27,13 +27,15 @@ const App = () => {
             <img className="w-[400px] self-end" src={Circle} alt="" />
           </div>
         </main>
-        <main className="flex-1 flex justify-center items-center py-[3rem] md:py-0">
+        <main className="flex-1 sm:flex sm:justify-center sm:items-center py-[3rem] md:py-0">
           <div className="space-y-4">
             <div className="text-center space-y-4">
               <h1 className="text-black-500 text-3xl font-normal">
                 Create your account
               </h1>
-              <p className="text-black-300 text-sm">Get started with zero costs.</p>
+              <p className="text-black-300 text-sm">
+                Get started with zero costs.
+              </p>
             </div>
 
             <form
